@@ -89,7 +89,7 @@
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
-        FUNCTION {
+        KIGOU {
             bindings = <
 &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PERCENT                              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN   &kp PLUS
 &kp CARET  &kp AMPS  &kp ASTRK  &kp TILDE  &kp GRAVE    &trans      &to 5           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp SQT            &kp NON_US_BACKSLASH
@@ -98,7 +98,7 @@
             >;
         };
 
-        NUM {
+        NUMandFUNCTION {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
