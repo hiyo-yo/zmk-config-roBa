@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))                &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &lt_to_layer_0 6 ESCAPE      &kp EQUAL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1       &lt 1 BACKSPACE  &lt 2 ENTER                             &kp UNDER
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                      &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))                &kp MINUS        &kp H                   &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &lt_to_layer_0 6 ESCAPE      &kp EQUAL        &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1       &lt 1 BACKSPACE  &lt_to_layer_0 2 ENTER                             &kp UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -91,19 +91,19 @@
 
         KIGOU {
             bindings = <
-&kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PERCENT                              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN   &kp PLUS
-&kp CARET  &kp AMPS  &kp ASTRK  &kp TILDE  &kp GRAVE    &trans      &to 5           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp SQT            &kp BACKSLASH
-&trans     &trans    &kp LPAR   &kp RPAR   &trans       &trans      &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
-&trans     &trans    &trans     &trans     &trans       &trans      &trans          &trans                                                                         &kp ASTERISK
+&kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PERCENT                              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp SQT          &kp BACKSLASH
+&kp CARET  &kp AMPS  &kp ASTRK  &kp TILDE  &kp GRAVE    &trans      &to 5           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_MUTE
+&trans     &trans    &kp LPAR   &kp RPAR   &trans       &trans      &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans           &trans
+&trans     &trans    &trans     &trans     &trans       &trans      &trans          &trans                                                                      &trans
             >;
         };
 
         NUM+ARROW {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &trans    &kp HOME   &kp UP     &kp END    &trans
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &mkp MB1  &kp LEFT   &kp DOWN   &kp RIGHT  &mkp MB2
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp ESCAPE      &trans    &kp LG(A)  &kp LG(C)  &kp LG(V)  &kp LG(Z)
-&kp LCTRL                   &trans           &trans           &trans           &trans        &trans                       &kp DEL         &trans                                     &kp LG(X)
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &trans            &kp HOME   &kp UP     &kp END    &trans
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kt LS(LG(LEFT))  &kp LEFT   &kp DOWN   &kp RIGHT  &kt LS(LG(RIGHT))
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp ESCAPE      &trans            &kp LG(Z)  &kp LG(A)  &kp LG(C)  &kp LG(V)
+&kp LCTRL                   &trans           &trans           &trans           &trans        &trans                       &kp DEL         &trans                                             &kp LG(X)
             >;
         };
 
