@@ -8,6 +8,11 @@
     quick-tap-ms = <150>;
 };
 
+&lt {
+    quick-tap-ms = <150>;
+    flavor = "balanced";
+};
+
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
