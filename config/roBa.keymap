@@ -5,12 +5,7 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <150>;
-};
-
-&lt {
-    quick-tap-ms = <150>;
-    flavor = "balanced";
+    quick-tap-ms = <0>;
 };
 
 &trackball {
