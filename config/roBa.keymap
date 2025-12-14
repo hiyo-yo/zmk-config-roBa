@@ -8,11 +8,6 @@
     quick-tap-ms = <150>;
 };
 
-&lt {
-    flavor = "balanced";
-    quick-tap-ms = <150>;
-};
-
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
@@ -91,7 +86,7 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1       &lt 1 BACKSPACE  &lt_to_layer_0 2 ENTER                             &kp UNDER
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         KIGOU {
@@ -106,7 +101,7 @@
         NUM+ARROW {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp LG(LEFT_ARROW)  &kp HOME   &kp UP     &kp END    &kp LG(RIGHT_ARROW)
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LS(LG(LEFT))    &kp LEFT   &kp DOWN   &kp RIGHT  &kp LS(LG(RIGHT))
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LS(LC(TAB))     &kp LEFT   &kp DOWN   &kp RIGHT  &kp LC(TAB)
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp ESCAPE      &trans              &kp LG(Z)  &kp LG(A)  &kp LG(C)  &kp LG(V)
 &kp LCTRL                   &trans           &trans           &trans           &trans        &trans                       &kp DEL         &kp BACKSPACE                                        &kp LG(X)
             >;
